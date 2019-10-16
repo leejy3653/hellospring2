@@ -16,7 +16,7 @@ public class UserController {
 
 	@RequestMapping(value = "/user/join", method = RequestMethod.GET)
 	public String join() {
-		return "/WEB-INF/views/join.jsp";
+		return "/join";
 	}
 	
 	@RequestMapping(value = "/user/join", method = RequestMethod.POST)
